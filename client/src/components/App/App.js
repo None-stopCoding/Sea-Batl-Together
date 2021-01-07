@@ -1,14 +1,15 @@
-import logo from './logo.svg';
+// import ship from './logo.svg';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+        <div className="ship" style={{
+          backgroundImage: `linear-gradient(0deg, rgba(35, 108, 132, 0.21), rgba(81, 184, 206, 0.67)),
+                            url(${process.env.PUBLIC_URL + '/images/ship.svg'})`
+        }}></div>
     </div>
   );
-}
+};
 
 export default App;
