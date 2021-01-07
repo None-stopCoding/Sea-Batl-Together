@@ -1,0 +1,16 @@
+.sb-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sb-login__header {
+    margin-top: 4%;
+}
+
+.sb-login__play {
+    margin-top: 168px;
+    width: 217px;
+    height: 217px;
+}
+  
