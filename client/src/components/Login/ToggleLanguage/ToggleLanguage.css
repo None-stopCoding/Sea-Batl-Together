@@ -1,0 +1,21 @@
+.sb-login__language-toggle {
+    align-self: flex-end;
+    margin-top: 100px;
+    margin-right: 70px;
+    width: 57px;
+    height: 56.15px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+    border-color: #FFFFFF;
+
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}

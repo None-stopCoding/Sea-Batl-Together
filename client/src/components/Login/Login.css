@@ -13,4 +13,21 @@
     width: 217px;
     height: 217px;
 }
-  
+
+.sb-login__auth {
+    margin-top: 168px;
+    width: 553px;
+    height: 282.41px;
+
+    
+    background: rgba(85, 183, 181, 0.8);
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+}
