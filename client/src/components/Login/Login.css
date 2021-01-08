@@ -18,7 +18,6 @@
     margin-top: 168px;
     width: 553px;
     height: 282.41px;
-
     
     background: rgba(85, 183, 181, 0.8);
     border: 2px solid #000000;
@@ -26,8 +25,83 @@
     border-radius: 20px;
 
     font-family: Roboto;
-    font-size: 20px;
     line-height: 23px;
+    user-select: none;
+}
 
-    color: #000000;
+.sb-login__auth-container {
+    width: 473px;
+    margin: 0 auto;
+}
+
+.sb-login__auth-input {
+    position: relative;
+}
+  
+.form-label {
+    position: absolute;
+    left: 0;
+    top: 45px;
+    color: #000 !important;
+    font-size: 23px !important;
+    background-color: transparent;
+    z-index: 10;
+    transition: transform 150ms ease-out, font-size 150ms ease-out;
+}
+
+.focused .form-label {
+    transform: translateY(-125%);
+    font-size: 20px !important;
+}
+  
+.form-input {
+    position: relative;
+    font-size: 23px !important;
+    width: 100%;
+    height: 40px !important;
+    outline: 0;
+    border-bottom: 1px solid #000 !important;
+    transition: box-shadow 150ms ease-out;
+}
+
+.input-login {
+    margin-top: 36px !important;
+}
+
+.input-pass {
+    margin-top: 36px !important;
+}
+  
+/* .form-input.filled {
+    box-shadow: 0 2px 0 0 lightgreen;
+} */
+
+.sb-login__auth-submitContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sb-login__auth-submit {
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 100px;
+
+    background-color: transparent;
+    color: #000;
+
+    height: 50px;
+    width: 230px;
+    margin-top: 36px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sb-login__auth-submit:hover {
+    background-color: transparent;
+}
+
+.sb-login__auth-submit-text {
+    font-size: 23px !important;
 }
