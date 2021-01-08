@@ -13,7 +13,6 @@ export const Login = () => {
             document.querySelector('.sb-login__auth').classList.add('scale-in');
 
             const inputFields = document.querySelectorAll('input');
-            console.log(inputFields);
             inputFields.forEach((input) => {
                 input.addEventListener('focus', () => {
                     input.parentElement.classList.add('focused');
