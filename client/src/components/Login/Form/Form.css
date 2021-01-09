@@ -1,6 +1,10 @@
 .sb-form {
     margin-top: 168px;
     width: 553px;
+    user-select: none;
+}
+
+.sb-form__container {
     height: 282.41px;
     
     background: rgba(85, 183, 181, 0.8);
@@ -10,10 +14,9 @@
 
     font-family: Roboto;
     line-height: 23px;
-    user-select: none;
 }
 
-.sb-form__container {
+.sb-form__inner {
     width: 473px;
     margin: 0 auto;
 }
@@ -50,4 +53,31 @@
 
 .sb-form__submit-text {
     font-size: 23px !important;
+}
+
+/******************** OAUTH *****************/
+.sb-oauth {
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sb-oauth__icon {
+    background-color: #fff;
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sb-oauth__icon:nth-child(2n) > img {
+    width: 35px;
+    height: 35px;
+}
+
+.sb-oauth__icon:hover {
+    background-color: #fff;
 }

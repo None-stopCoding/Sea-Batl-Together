@@ -6,6 +6,7 @@
 
 .sb-login__header {
     margin-top: 4%;
+    user-select: none;
 }
 
 .sb-login__play {

@@ -5,8 +5,7 @@ export const Input = ({ label, id, type, inputClassName }) => {
     const [inputFocused, changeInputFocused] = useState(false);
 
     const returnLabelBackDown = (event) => {
-        const curInputField = event.target;
-        if (curInputField.value === '') {
+        if (event.target.value === '') {
             changeInputFocused(false);
         }
     }

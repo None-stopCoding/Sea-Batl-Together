@@ -1,6 +1,6 @@
-.sb-login__language-toggle {
+.sb-language__toggle {
     align-self: flex-end;
-    margin-top: 100px;
+    margin-top: 40px;
     margin-right: 70px;
     width: 57px;
     height: 56.15px;
@@ -18,4 +18,8 @@
     font-size: 30px;
     line-height: 35px;
     color: #000000;
+}
+
+.sb-language__toggle:hover {
+    background-color: #fff;
 }
