@@ -1,0 +1,30 @@
+.sb-input {
+    position: relative;
+}
+  
+.sb-input__label {
+    position: absolute;
+    left: 0;
+    top: 45px;
+    color: #000 !important;
+    font-size: 23px !important;
+    background-color: transparent;
+    z-index: 10;
+    transition: transform 150ms ease-out, font-size 150ms ease-out;
+}
+
+.focused .sb-input__label {
+    transform: translateY(-125%);
+    font-size: 20px !important;
+}
+  
+.sb-input__field {
+    position: relative;
+    font-size: 23px !important;
+    width: 100%;
+    height: 40px !important;
+    outline: 0;
+    border-bottom: 1px solid #000 !important;
+    transition: box-shadow 150ms ease-out;
+    margin-top: 36px !important;
+}
